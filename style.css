@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+
+label,input{
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    font-size: 13pt;
+    width: 100%;
+}
+
+form{
+    width: 330px;
+    background-color: rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 30px auto;
+}
+
+
+input[type="submit"] {
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#esquerda {
+    width: 35%;
+    float: left;
+}
+
+h2{
+    text-align: center;
+}
+
+#direita {
+    width: 65%;
+    float: left;
+}
+
+table{
+    background-color:rgba(0,0,0,0.2);
+    width: 90%;
+    margin: 30px auto;
+}
+
+tr{
+    line-height: 30px;
+}
+
+tr#titulo{
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+}
+
+td{
+    padding: 0px 5px;
+}
+
+a{
+    background-color: #fff;
+    color: black;
+    padding: 5px;
+    margin: 0px 5px;
+    text-decoration: none;
+}
